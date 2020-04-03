@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="spring_crud:war" />
+      <artifact name="spring_crud:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -23,55 +23,13 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_example@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_example@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_example@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_example: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_example@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_example: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_example@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_example: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db_example@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="db_example: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="FxmlFile" />
-        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -90,20 +48,17 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1Z2hfQnOqe9Xtvi5Qi8skEI6gMF" />
+  <component name="ProjectId" id="1a1HV0SOaESGwLxBP0eie82QbEG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="C:/android-sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/webapp/WEB-INF/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -117,25 +72,17 @@
     <property name="settings.editor.selected.configurable" value="lessc" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\09\04\07\SpringTask4 (1) (1)\spring_security\src\main\resources\html\1" />
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\09\03\07\SpringTask4 (1) (1)\spring_security\src\main\resources\html\1" />
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\07\05\SpringTask4 (1) (1)\spring_security\src\main\webapp\jsp" />
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\07\05\SpringTask4 (1) (1)\spring_security\src\main" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="web.dao" />
-      <recent name="web.security.securityDitel" />
-      <recent name="web.controller" />
-      <recent name="web.repository" />
-      <recent name="web.config" />
+      <recent name="web.config.handler" />
+      <recent name="web.model" />
+      <recent name="web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\09\most\19\12\07\SpringTask4 (1) (1)\spring_security\src\main\webapp\html" />
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\09\06\07\SpringTask4 (1) (1)\spring_security\src\main\resources\html\1" />
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\09\05\07\SpringTask4 (1) (1)\spring_security\src\main\resources\html\1" />
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\09\04\07\SpringTask4 (1) (1)\spring_security\src\main\webapp\html" />
-      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\09\03\07\SpringTask4 (1) (1)\spring_security\src\main\resources\html\1" />
+      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\10\мусор\5\SpringTask4 (1) (1)\spring_security\src\webapp\WEB-INF\pages" />
+      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\10\мусор\5\SpringTask4 (1) (1)\spring_security\src\webapp\WEB-INF" />
+      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\10\мусор\4\SpringTask4 (1) (1)\spring_security\src\main\resources" />
+      <recent name="E:\Программирование\Разные рабочие столы\web\JavaMentor2\домашка\10\мусор\4\SpringTask4 (1) (1)\spring_security\src\main\java\web\config" />
+      <recent name="C:\Users\Святослав\Documents\codeWork\SpringTasks\spring_crud\src\main\java\web\config" />
     </key>
   </component>
   <component name="RunManager">
@@ -167,19 +114,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.502" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.502" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login" />
-      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+    <configuration name="serv8080" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.502" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/hello" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="spring_crud:war">
+        <artifact name="spring_crud:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring_security" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring_crud_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -187,7 +133,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53824" />
+        <option name="DEBUG_PORT" value="51874" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -237,7 +183,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="spring_crud:war" />
+          <artifact name="spring_crud:war exploded" />
         </option>
       </method>
     </configuration>
@@ -255,7 +201,6 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.26535088" />
           <treeState>
             <expand>
               <path>
@@ -289,58 +234,10 @@
       <workItem from="1573824649608" duration="2391000" />
       <workItem from="1574158987137" duration="3880000" />
       <workItem from="1574687208185" duration="6008000" />
-      <workItem from="1584043202991" duration="4905000" />
-      <workItem from="1584126714146" duration="7681000" />
-      <workItem from="1584642541332" duration="3213000" />
-      <workItem from="1584648890381" duration="941000" />
-      <workItem from="1584694275209" duration="6230000" />
-      <workItem from="1584706375925" duration="2373000" />
-      <workItem from="1584716841212" duration="4496000" />
-      <workItem from="1584731020208" duration="8614000" />
-      <workItem from="1584774519069" duration="293000" />
-      <workItem from="1584870497283" duration="2876000" />
-      <workItem from="1584891044989" duration="14514000" />
-      <workItem from="1584908434967" duration="7377000" />
-      <workItem from="1584941479213" duration="16182000" />
-      <workItem from="1584959919806" duration="7721000" />
-      <workItem from="1584991293722" duration="1224000" />
-      <workItem from="1584994466121" duration="4461000" />
-      <workItem from="1585031927131" duration="6782000" />
-      <workItem from="1585060027457" duration="237000" />
-      <workItem from="1585066193981" duration="504000" />
-      <workItem from="1585073570370" duration="13309000" />
-      <workItem from="1585111383754" duration="10189000" />
-      <workItem from="1585122792930" duration="6448000" />
-      <workItem from="1585131922626" duration="7607000" />
-      <workItem from="1585143330385" duration="6176000" />
-      <workItem from="1585153892490" duration="2811000" />
-      <workItem from="1585157088740" duration="795000" />
-      <workItem from="1585157915644" duration="4216000" />
-      <workItem from="1585162262723" duration="5043000" />
-      <workItem from="1585209742619" duration="409000" />
-      <workItem from="1585237976085" duration="1388000" />
-      <workItem from="1585240817436" duration="990000" />
-      <workItem from="1585319413987" duration="738000" />
-      <workItem from="1585323752492" duration="12477000" />
-      <workItem from="1585336455742" duration="5541000" />
-      <workItem from="1585402287051" duration="1199000" />
-      <workItem from="1585418647271" duration="10003000" />
-      <workItem from="1585429249505" duration="1308000" />
-      <workItem from="1585430865676" duration="2977000" />
-      <workItem from="1585434797995" duration="797000" />
-      <workItem from="1585436031858" duration="996000" />
-      <workItem from="1585437206109" duration="262000" />
-      <workItem from="1585461908310" duration="7260000" />
-      <workItem from="1585469385232" duration="425000" />
-      <workItem from="1585470031849" duration="499000" />
-      <workItem from="1585552624437" duration="6586000" />
-      <workItem from="1585659315089" duration="238000" />
-      <workItem from="1585668330323" duration="1333000" />
-      <workItem from="1585669730308" duration="2287000" />
-      <workItem from="1585808449102" duration="610000" />
-      <workItem from="1585846708341" duration="3079000" />
-      <workItem from="1585856963966" duration="1899000" />
-      <workItem from="1585859059557" duration="654000" />
+      <workItem from="1585896217102" duration="643000" />
+      <workItem from="1585896990362" duration="3699000" />
+      <workItem from="1585900773418" duration="5434000" />
+      <workItem from="1585906920276" duration="318000" />
     </task>
     <servers />
   </component>
@@ -348,136 +245,170 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="312" y="92" key="#Project_Structure" timestamp="1584891918498">
+    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585903871868">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="92" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1584891918498" />
-    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585327515726">
+    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1585903871868" />
+    <state x="450" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585899276184">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="174" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1585327515726" />
-    <state x="525" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1585466202407">
+    <state x="450" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1585899276184" />
+    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1585897057599">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="525" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1585466202407" />
-    <state x="195" y="360" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584971280301">
+    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1585897057599" />
+    <state width="957" height="215" key="GridCell.Tab.0.bottom" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="195" y="360" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.860@0.0.1440.860" timestamp="1584971280301" />
-    <state x="450" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584892684438">
+    <state width="957" height="215" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.0.center" timestamp="1585907247028">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="450" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1584892684438" />
-    <state x="500" y="189" key="FileChooserDialogImpl" timestamp="1585809064972">
+    <state width="957" height="215" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1585907247028" />
+    <state width="957" height="215" key="GridCell.Tab.0.left" timestamp="1585907247028">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="189" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1585809064972" />
-    <state width="1004" height="236" key="GridCell.Tab.0.bottom" timestamp="1585859582864">
+    <state width="957" height="215" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1585907247028" />
+    <state width="957" height="215" key="GridCell.Tab.0.right" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585859582864" />
-    <state width="1004" height="236" key="GridCell.Tab.0.center" timestamp="1585859582864">
+    <state width="957" height="215" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.1.bottom" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1585859582864" />
-    <state width="1004" height="236" key="GridCell.Tab.0.left" timestamp="1585859582864">
+    <state width="957" height="215" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.1.center" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1585859582864" />
-    <state width="1004" height="236" key="GridCell.Tab.0.right" timestamp="1585859582864">
+    <state width="957" height="215" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.1.left" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1585859582864" />
-    <state width="1004" height="236" key="GridCell.Tab.1.bottom" timestamp="1585859582864">
+    <state width="957" height="215" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.1.right" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585859582864" />
-    <state width="1004" height="236" key="GridCell.Tab.1.center" timestamp="1585859582864">
+    <state width="957" height="215" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.2.bottom" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1585859582864" />
-    <state width="1004" height="236" key="GridCell.Tab.1.left" timestamp="1585859582864">
+    <state width="957" height="215" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.2.center" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1585859582864" />
-    <state width="1004" height="236" key="GridCell.Tab.1.right" timestamp="1585859582864">
+    <state width="957" height="215" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.2.left" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1585859582864" />
-    <state width="1004" height="236" key="GridCell.Tab.2.bottom" timestamp="1585859582865">
+    <state width="957" height="215" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
+    <state width="957" height="215" key="GridCell.Tab.2.right" timestamp="1585907247029">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1004" height="236" key="GridCell.Tab.2.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585859582865" />
-    <state width="1004" height="236" key="GridCell.Tab.2.center" timestamp="1585859582865">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1004" height="236" key="GridCell.Tab.2.center/0.0.1440.860@0.0.1440.860" timestamp="1585859582865" />
-    <state width="1004" height="236" key="GridCell.Tab.2.left" timestamp="1585859582865">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1004" height="236" key="GridCell.Tab.2.left/0.0.1440.860@0.0.1440.860" timestamp="1585859582865" />
-    <state width="1004" height="236" key="GridCell.Tab.2.right" timestamp="1585859582865">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1004" height="236" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1585859582865" />
-    <state width="1004" height="236" key="GridCell.Tab.3.bottom" timestamp="1585859458738">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1004" height="236" key="GridCell.Tab.3.bottom/0.0.1440.860@0.0.1440.860" timestamp="1585859458738" />
-    <state width="1004" height="236" key="GridCell.Tab.3.center" timestamp="1585859458738">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1004" height="236" key="GridCell.Tab.3.center/0.0.1440.860@0.0.1440.860" timestamp="1585859458738" />
-    <state width="1004" height="236" key="GridCell.Tab.3.left" timestamp="1585859458737">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1004" height="236" key="GridCell.Tab.3.left/0.0.1440.860@0.0.1440.860" timestamp="1585859458737" />
-    <state width="1004" height="236" key="GridCell.Tab.3.right" timestamp="1585859458738">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state width="1004" height="236" key="GridCell.Tab.3.right/0.0.1440.860@0.0.1440.860" timestamp="1585859458738" />
-    <state x="250" y="89" key="Maven.ArtifactSearchDialog" timestamp="1584717688345">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="250" y="89" key="Maven.ArtifactSearchDialog/0.0.1440.860@0.0.1440.860" timestamp="1584717688345" />
-    <state x="613" y="324" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1585429977701">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="613" y="324" width="319" height="222" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.860@0.0.1440.860" timestamp="1585429977701" />
-    <state x="300" y="89" key="com.intellij.database.dbimport.ImportDialog" timestamp="1585429501488">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="300" y="89" key="com.intellij.database.dbimport.ImportDialog/0.0.1440.860@0.0.1440.860" timestamp="1585429501488" />
-    <state x="428" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1585856975338">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="428" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1585856975338" />
-    <state x="102" y="139" key="new project wizard" timestamp="1585659559217">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="102" y="139" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1585659559217" />
-    <state x="376" y="83" width="670" height="676" key="search.everywhere.popup" timestamp="1585847874985">
-      <screen x="0" y="0" width="1440" height="860" />
-    </state>
-    <state x="376" y="83" width="670" height="676" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1585847874984" />
+    <state width="957" height="215" key="GridCell.Tab.2.right/0.0.1440.860@0.0.1440.860" timestamp="1585907247029" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/web/config/sucseesHandler/MySimpleUrlAuthenticationSuccessHandler.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/main/java/web/config/WebConfig.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/web/service/UserServiceImpl.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/src/main/java/web/config/WebConfig.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/spring_security$serv8080.ic" NAME="serv8080 Coverage Results" MODIFIED="1585166892111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring_crud:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|spring_crud</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:3.0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -16,6 +16,6 @@ public interface Dao<T> {
     void delete(T model);
     void drop();
     void create();
-    T update(T model);
+    void update(T model);
     T findModelByName(String name);
 }

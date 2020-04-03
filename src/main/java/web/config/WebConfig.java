@@ -1,11 +1,9 @@
 package web.config;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
 import org.springframework.core.env.Environment;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
@@ -15,15 +13,10 @@ import org.springframework.transaction.TransactionDefinition;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.transaction.support.DefaultTransactionStatus;
 import org.springframework.transaction.support.TransactionSynchronizationManager;
-import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.thymeleaf.spring5.SpringTemplateEngine;
-import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
-import org.thymeleaf.spring5.view.ThymeleafViewResolver;
-import org.thymeleaf.templateresolver.ITemplateResolver;
-import web.model.Role;
-import web.model.User;
+import web.config.model.Role;
+import web.config.model.User;
 
 import javax.persistence.EntityManagerFactory;
 import javax.sql.DataSource;
@@ -35,38 +28,9 @@ import java.util.Properties;
 @EnableTransactionManagement
 @PropertySource("classpath:db.properties")
 public class WebConfig implements WebMvcConfigurer {
-
-
     @Autowired
     private Environment env;
 
-    @Bean
-    public ITemplateResolver templateResolver() {
-        SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
-        templateResolver.setPrefix( "/html/" );
-        templateResolver.setSuffix( ".html" );
-        templateResolver.setTemplateMode( "HTML5" );
-        return templateResolver;
-    }
-
-    @Bean
-    public SpringTemplateEngine templateEngine() {
-        SpringTemplateEngine templateEngine = new SpringTemplateEngine();
-        templateEngine.setTemplateResolver( templateResolver() );
-        return templateEngine;
-    }
-
-    @Bean
-    public ViewResolver viewResolver() {
-        ThymeleafViewResolver viewResolver = new ThymeleafViewResolver();
-        viewResolver.setTemplateEngine( templateEngine() );
-        viewResolver.setOrder( 1 );
-        return viewResolver;
-    }
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return NoOpPasswordEncoder.getInstance();
-    }
 
     @Bean
     public DataSource getDataSource() {
@@ -92,13 +56,12 @@ public class WebConfig implements WebMvcConfigurer {
         return factoryBean;
     }
 
-//    @Bean
+    //    @Bean
 //    public HibernateTransactionManager getTransactionManager() {
 //        HibernateTransactionManager transactionManager = new HibernateTransactionManager();
 //        transactionManager.setSessionFactory(getSessionFactory().getObject());
 //        return transactionManager;
 //    }
-
     @Bean(name = "transactionManager")
     @Primary
     public PlatformTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
@@ -115,4 +78,9 @@ public class WebConfig implements WebMvcConfigurer {
 
         };
     }
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return NoOpPasswordEncoder.getInstance();
+    }
+
 }

@@ -1,6 +1,6 @@
 package web.dao;
 
-import web.model.Role;
+import web.config.model.Role;
 
 /*
  *

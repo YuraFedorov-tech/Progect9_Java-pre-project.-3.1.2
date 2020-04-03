@@ -1,6 +1,6 @@
 package web.dao;
 
-import web.model.User;
+import web.config.model.User;
 
 /*
  *

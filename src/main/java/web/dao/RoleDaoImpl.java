@@ -9,7 +9,8 @@ package web.dao;
 
 
 import org.springframework.stereotype.Repository;
-import web.model.Role;
+import org.springframework.transaction.annotation.Transactional;
+import web.config.model.Role;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -21,24 +22,29 @@ public class RoleDaoImpl implements RoleDao {
 
 
     @PersistenceContext
-    private EntityManager entityManager;
+    EntityManager entityManager;
 
+    @Transactional
     @Override
     public void add(Role model) {
 
         entityManager.persist(model);
     }
 
+    @Transactional
     @Override
-    public Role update(Role model) {
-        return entityManager.merge(model);
+    public void update(Role model) {
+        entityManager.merge(model);
     }
 
+    @Transactional
     @Override
     public void delete(Role role) {
         entityManager.remove(role);
     }
 
+
+    @Transactional(readOnly = true)
     @Override
     public List<Role> findAll() {
         return entityManager.createQuery("SELECT u FROM Role u").getResultList();
@@ -46,17 +52,28 @@ public class RoleDaoImpl implements RoleDao {
 
     }
 
+    @Transactional(readOnly = true)
     @Override
     public Role findModelByName(String name) {
         Query query = entityManager.createQuery("SELECT u FROM Role u where u.role = :role");
         query.setParameter("role", name);
-        Role role = (Role) query.getSingleResult();
-        return role == null ? null : role;
+        List<Role> roles = query.getResultList();
+        if (roles.size() > 0) {
+            return roles.get(0);
+        }
+        return null;
     }
 
+    @Transactional(readOnly = true)
     @Override
     public Role findById(Long id) {
-        return entityManager.find(Role.class, id);
+        Query query = entityManager.createQuery("SELECT u FROM Role u where u.id = :id");
+        query.setParameter("id", id);
+        List<Role> roles = query.getResultList();
+        if (roles.size() > 0) {
+            return roles.get(0);
+        }
+        return null;
     }
 
 

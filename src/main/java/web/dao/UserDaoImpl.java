@@ -9,7 +9,8 @@ package web.dao;
 
 
 import org.springframework.stereotype.Repository;
-import web.model.User;
+import org.springframework.transaction.annotation.Transactional;
+import web.config.model.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -21,41 +22,52 @@ public class UserDaoImpl implements UserDao {
 
 
     @PersistenceContext
-    private EntityManager entityManager;
+    EntityManager entityManager;
 
+    @Transactional
     @Override
     public void add(User model) {
         entityManager.persist(model);
     }
 
+    @Transactional
     @Override
-    public User update(User model) {
-        return entityManager.merge(model);
+    public void update(User model) {
+        entityManager.merge(model);
     }
 
+    @Transactional(readOnly = true)
     @Override
     public User findModelByName(String email) {
         Query query = entityManager.createQuery("SELECT u FROM User u where u.email = :email");
         query.setParameter("email", email);
-        User user = (User) query.getSingleResult();
-        return user == null ? null : user;
+        List<User> users = query.getResultList();
+        if (users.size() > 0) {
+            return users.get(0);
+        }
+        return null;
     }
 
+    @Transactional()
     @Override
     public void delete(User user) {
         entityManager.remove(user);
     }
 
+    @Transactional(readOnly = true)
     @Override
     public List<User> findAll() {
         return entityManager.createQuery("SELECT u FROM User u").getResultList();
     }
 
+    @Transactional(readOnly = true)
     @Override
     public User findById(Long id) {
         return entityManager.find(User.class, id);
     }
 
+
+    @Override
     public void drop() {
     }
 

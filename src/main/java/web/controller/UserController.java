@@ -4,8 +4,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import web.model.Role;
-import web.model.User;
+import web.config.model.User;
 import web.service.UserService;
 
 import java.util.Arrays;
@@ -26,10 +25,7 @@ public class UserController {
         return "login";
     }
 
-    @GetMapping(value = "hello")
-    public String getHello() {
-        return "hello";
-    }
+
 
 
     @GetMapping(value = "user")
